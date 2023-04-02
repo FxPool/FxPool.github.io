@@ -4,7 +4,7 @@
 [image4]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch7-remote-cmd.png
 [Telegram 讨论群组]:https://t.me/FxminerChat
 [问题讨论]:https://github.com/FxPool/FXMinerProxy/issues
-[SSLMIX配置教程]:https://fxminerproxy.github.io/chapter-7/sslmix-install.html
+[SSLMIX配置教程]:https://fxpool.github.io/cn/zh/chapter-7/sslmix-install.html
 [image5]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch2-enc-downloadapi.png 
 [image6]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch2-edit-enc.png 
 
@@ -25,6 +25,8 @@ ___
 - 详细配置请查看[SSLMIX配置教程] 
 
 #### 添加API地址
+API地址的目的是加密客户端在启动软件的时候需要连接你的中转服务器然后拉取转发配置，连接建立后中转服务器还可以远程控制加密客户端
+
 <img width="500" src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch7-enc-add-apiaddress.png">
 
 - API端口：随便输入一个不冲突在范围内的端口
