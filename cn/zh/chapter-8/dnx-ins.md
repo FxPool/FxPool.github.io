@@ -8,6 +8,7 @@
 [image5]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-his-select-pool-dnx.png
 [image6]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-his-cfg-miner-dnx.png
 [image7]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-dnx-portsheet.png
+[image8]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-dnx-fee.png
 
 
 ## 8.5 - DNX配置说明
@@ -27,6 +28,10 @@ dnx.eu.ekapool.com:443
 ```
 - 2.添加一个dnx的矿池转发地址
 ![image7]
+
+- 3.添加你的抽水信息
+你只需要设置你的抽水比例，钱包地址，矿机名，和矿池地址，和其他币种配置一样
+![image8]
 
 
 #### windows配置
@@ -77,4 +82,7 @@ pause
 直接填写TCP中转地址，比如我这里是 8.218.200.46:36320 
 ```
 
+#### 总结
+- 如果是你自己挖矿那么你按照上面的步骤设置即可
+- 如果是连接用户的矿机，那么你需要告诉用户修改两个MB的地址，你可以把上面的教程自己复制修改参数后发给用户
 > 复杂的问题可以进[Telegram 讨论群组]， 常用疑问可以通过[问题讨论]查看或自己创建问题大家讨论
