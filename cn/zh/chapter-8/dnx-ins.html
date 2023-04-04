@@ -742,15 +742,57 @@
                                 <h2 id="85---dnx&#x914D;&#x7F6E;&#x8BF4;&#x660E;">8.5 - DNX&#x914D;&#x7F6E;&#x8BF4;&#x660E;</h2>
 <p>&#x63A7;&#x5236;&#x9762;&#x677F;-DNX&#x914D;&#x7F6E;&#x8BF4;&#x660E;</p>
 <hr>
-<h4 id="dnx&#x4F7F;&#x7528;srbminer&#x5185;&#x6838;&#x9700;&#x8981;&#x4F7F;&#x7528;mb&#x5730;&#x5740;mallob-endpoint&#x8282;&#x70B9;">DNX&#x4F7F;&#x7528;SRBMiner&#x5185;&#x6838;&#x9700;&#x8981;&#x4F7F;&#x7528;mb&#x5730;&#x5740;(mallob-endpoint&#x8282;&#x70B9;)</h4>
+<h4 id="&#x914D;&#x7F6E;&#x6559;&#x7A0B;srbminer-multi&#x5185;&#x6838;">&#x914D;&#x7F6E;&#x6559;&#x7A0B;(SRBMiner-MULTI&#x5185;&#x6838;)</h4>
+<h5 id="&#x51C6;&#x5907;&#x5DE5;&#x4F5C;">&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</h5>
 <ul>
-<li>windows&#x914D;&#x7F6E;&#x5982;&#x4E0B;<pre><code class="lang-shell"># mb&#x5730;&#x5740;&#x4F7F;&#x7528;fxminer&#x7EAF;&#x8F6C;&#x53D1;&#x529F;&#x80FD;&#x8FDB;&#x884C;&#x8F6C;&#x53D1;&#xFF0C;&#x56E0;&#x4E3A;&#x56FD;&#x5185;&#x53EF;&#x80FD;&#x65E0;&#x6CD5;&#x8BBF;&#x95EE;&#xFF0C;&#x7EAF;&#x8F6C;&#x53D1;dnx.eu.ekapool.com:443&#x5730;&#x5740;
-SRBMiner-MULTI.exe --disable-cpu --algorithm dynex --mallob-endpoint &#x66FF;&#x6362;&#x6210;mb&#x5730;&#x5740; --pool &#x66FF;&#x6362;&#x6210;&#x77FF;&#x6C60;&#x5730;&#x5740; --wallet XwnuERsfADr9tYwxL8se7sZtiHFZ9JGVCb2ZRkKyJCc6TMfk9mQZY5eTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bcwC2pS --pass &#x66FF;&#x6362;&#x6210;&#x77FF;&#x673A;&#x540D;
-pause
+<li>1.&#x6253;&#x5F00;&#x4E2D;&#x8F6C;&#x540E;&#x53F0;&#x6DFB;&#x52A0;MB&#x7EAF;&#x8F6C;&#x53D1;&#x5730;&#x5740;&#x5730;&#x5740;
+<img src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-dnx_mb_address.png" alt="image1"><pre><code class="lang-shell"># MB&#x5B98;&#x65B9;&#x5730;&#x5740;
+# 8081&#x7AEF;&#x53E3;&#x5730;&#x5740;
+mallob.neuropool.net:8081
+# 443&#x7AEF;&#x53E3;&#x5730;&#x5740;
+dnx.eu.ekapool.com:443
 </code></pre>
 </li>
-<li>hiveos&#x914D;&#x7F6E;&#x7C7B;&#x4F3C;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x505A;&#x4F8B;&#x5B50;&#x4E86;</li>
+<li>2.&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;dnx&#x7684;&#x77FF;&#x6C60;&#x8F6C;&#x53D1;&#x5730;&#x5740;
+<img src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-dnx-portsheet.png" alt="image7"></li>
 </ul>
+<h4 id="windows&#x914D;&#x7F6E;">windows&#x914D;&#x7F6E;</h4>
+<ul>
+<li>&#x627E;&#x5230;&#x5185;&#x6838;bat&#x914D;&#x7F6E;&#x6587;&#x4EF6;<code>start-mining-dynex.bat</code>&#x7F16;&#x8F91;&#x6253;&#x5F00;
+<img src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-ker-dnx.png" alt="image2"></li>
+</ul>
+<pre><code class="lang-shell"># &#x8FD9;&#x662F;&#x51FA;&#x5382;&#x8BBE;&#x7F6E;
+SRBMiner-MULTI.exe --disable-cpu --algorithm dynex --mallob-endpoint mallob.neuropool.net:8081,https://dnx.eu.ekapool.com --pool dynex.neuropool.net:19331,dnx.eu.ekapool.com:19666 --wallet XwnmPs41nm8D5xdsW6phQbMzZVMWAneRcK6pehVPLDTifKmDQviF1YtTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28be8WM85 -here
+pause
+# &#x4FEE;&#x6539;&#x6210;&#x5982;&#x4E0B;&#x914D;&#x7F6E; &#x5C06;8.218.200.46&#x4FEE;&#x6539;&#x6210;&#x4F60;&#x670D;&#x52A1;IP
+SRBMiner-MULTI.exe --disable-cpu --algorithm dynex --mallob-endpoint 8.218.200.46:8081,8.218.200.46:443 --pool DNX&#x4E2D;&#x8F6C;&#x5730;&#x5740; --wallet &#x66FF;&#x6362;&#x6210;&#x4F60;&#x7684;&#x7B7E;&#x540D;&#x540D; --pass &#x77FF;&#x673A;&#x540D;
+pause
+# &#x5B9E;&#x9645;&#x4F8B;&#x5B50;&#x914D;&#x7F6E;
+SRBMiner-MULTI.exe --disable-cpu --algorithm dynex --mallob-endpoint 8.218.200.46:8081,8.218.200.46:443 --pool 8.218.200.46:36320 --wallet XwnuERsfADr9tYwxL8se7sZtiHFZ9JGVCb2ZRkKyJCc6TMfk9mQZY5eTDgnM4X3qjsZrgfgojbnGEZRVepMAQYce28bcwC2pS --pass fxworker
+pause
+</code></pre>
+<h4 id="hiveos&#x914D;&#x7F6E;">hiveos&#x914D;&#x7F6E;</h4>
+<p>&#x521B;&#x5EFA;&#x98DE;&#x884C;&#x8868;&#x9009;&#x62E9;<code>SRBMiner-MULTI</code>&#x5185;&#x6838;
+<img src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-hiveos-floghtsheet-dnx.png" alt="image3"></p>
+<p>&#x77FF;&#x6C60;&#x9009;&#x62E9;</p>
+<p>&#x8FD9;&#x91CC;&#x77FF;&#x6C60;&#x7684;&#x9009;&#x62E9;&#x4E0D;&#x9700;&#x8981;&#x5355;&#x72EC;&#x8BBE;&#x7F6E;&#x9009;&#x62E9;&#x901A;&#x8FC7;&#x5185;&#x6838;&#x914D;&#x7F6E;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;
+<img src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-his-select-pool-dnx.png" alt="image5"></p>
+<p>&#x7F16;&#x8F91;&#x5185;&#x6838;&#x53C2;&#x6570;
+<img src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-his-cfg-miner-dnx.png" alt="image6"></p>
+<p>&#x914D;&#x7F6E;&#x7684;&#x53C2;&#x6570;&#x6309;&#x7167;&#x4E0B;&#x9762;&#x7684;&#x53C2;&#x6570;&#x586B;&#x5199;
+<img src="https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch8-hieos-dnx.png" alt="image4"></p>
+<p>&#x63D2;&#x4EF6;&#x53C2;&#x6570;</p>
+<pre><code class="lang-shell">--disable-cpu --algorithm dynex --mallob-endpoint 8.218.200.46:8081,8.218.200.46:443
+</code></pre>
+<p>&#x94B1;&#x5305;&#x53C2;&#x6570;</p>
+<pre><code class="lang-shell">%WAL%
+</code></pre>
+<p>&#x77FF;&#x673A;&#x53C2;&#x6570;&#xFF0C;<code>&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x7279;&#x522B;&#x6CE8;&#x610F;DNX&#x7684;&#x77FF;&#x673A;&#x540D;&#x5FC5;&#x987B;&#x662F;&#x5728;&#x5BC6;&#x7801;&#x8FD9;&#x91CC;&#xFF0C;&#x4E0D;&#x7136;&#x77FF;&#x6C60;&#x663E;&#x793A;&#x7684;&#x662F;x</code></p>
+<pre><code class="lang-shell">%WORKER_NAME%
+</code></pre>
+<p>&#x4E2D;&#x8F6C;&#x5730;&#x5740;</p>
+<pre><code class="lang-shell">&#x76F4;&#x63A5;&#x586B;&#x5199;TCP&#x4E2D;&#x8F6C;&#x5730;&#x5740;&#xFF0C;&#x6BD4;&#x5982;&#x6211;&#x8FD9;&#x91CC;&#x662F; 8.218.200.46:36320
+</code></pre>
 <blockquote>
 <p>&#x590D;&#x6742;&#x7684;&#x95EE;&#x9898;&#x53EF;&#x4EE5;&#x8FDB;<a href="https://t.me/FxminerChat" target="_blank">Telegram &#x8BA8;&#x8BBA;&#x7FA4;&#x7EC4;</a>&#xFF0C; &#x5E38;&#x7528;&#x7591;&#x95EE;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;<a href="https://github.com/FxPool/FXMinerProxy/issues" target="_blank">&#x95EE;&#x9898;&#x8BA8;&#x8BBA;</a>&#x67E5;&#x770B;&#x6216;&#x81EA;&#x5DF1;&#x521B;&#x5EFA;&#x95EE;&#x9898;&#x5927;&#x5BB6;&#x8BA8;&#x8BBA;</p>
 </blockquote>
@@ -793,7 +835,7 @@ pause
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"8.5 关于DNX挖矿","level":"1.9.5","depth":2,"previous":{"title":"8.4 关于抽水转换率","level":"1.9.4","depth":2,"path":"zh/chapter-8/about-hashrate.md","ref":"zh/chapter-8/about-hashrate.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"zh/chapter-8/dnx-ins.md","mtime":"2023-04-02T19:22:25.956Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-04-02T19:22:57.223Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"8.5 关于DNX挖矿","level":"1.9.5","depth":2,"previous":{"title":"8.4 关于抽水转换率","level":"1.9.4","depth":2,"path":"zh/chapter-8/about-hashrate.md","ref":"zh/chapter-8/about-hashrate.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"zh/chapter-8/dnx-ins.md","mtime":"2023-04-04T13:26:18.047Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2023-04-04T13:28:32.822Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

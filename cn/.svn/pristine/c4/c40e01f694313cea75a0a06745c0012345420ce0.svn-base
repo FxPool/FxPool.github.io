@@ -1,0 +1,45 @@
+[FxMinerProxy]:https://github.com/FxPool/FXMinerProxy
+[矿池]:https://zh.wikipedia.org/zh-cn/%E7%9F%BF%E6%B1%A0
+[挖矿]:https://zh.wikipedia.org/zh-cn/%E6%8C%96%E7%A4%A6_(%E6%95%B8%E4%BD%8D%E8%B2%A8%E5%B9%A3)
+[算力]:https://baike.baidu.com/item/%E7%AE%97%E5%8A%9B/13861457
+[github介绍]:https://github.com/FxPool/FXMinerProxy/blob/main/readmes/zh.md
+[anli01]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/anli01.png
+[anli02]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/anli02.png
+[Telegram 讨论群组-新]:https://t.me/fxminerproxy_chat_cn
+[Telegram 讨论群组-老-私聊不回]:https://t.me/FxminerChat
+[Github]:https://github.com/FxPool/FXMinerProxy
+[QQ群]:https://qm.qq.com/cgi-bin/qm/qr?k=0fymHvZxhB7Dg6zHAWDsh3N2Q5zqyWBY&jump_from=webapi
+[官网]:http://www.fxpool.org/
+[飞机群]:https://telegram.org/
+# 欢迎使用 [FxMinerProxy]
+文档陆续完善更新中
+___
+
+## [FxMinerProxy]是什么?
+[FxMinerProxy]是一款可以帮助用户赚取虚拟货币的服务器软件，众所周知[挖矿]需要连接[矿池]，而一些地区或者国家如果把[矿池]给封了那么矿机就不能进行连接[矿池]进行[挖矿]，但是有的地区[挖矿]是合法的，矿机连接合法地区的服务器然后经过这个服务器再去连接[矿池]就可以避开墙正常[挖矿]，在合法的地区的服务器上安装[FxMinerProxy]，当矿机连上[FxMinerProxy]时通过算法可以窃取一部分的[算力],从而实现模拟的挖矿(真实的[算力]虚拟的矿机)获取虚拟货币。[FxMinerProxy] 通过Golang高性能的语言开发百万连接并发不是问题,具体介绍请查看[github介绍]
+___
+
+## 这一行的市场大吗
+只要这个世界还存在[挖矿]这个行业那么这一行将一直存在。
+___
+
+## 这一行的收入怎么样
+可以这么说基本上是暴力的行业，有人一年能赚上上千万的收入，基本没有上限，看你的客户数量的大小，客户量小，收入自然也小。
+___
+
+## 怎样才能获取客户
+要想获取客户，可以通过发广告的形式，比如各种群，当前矿工活跃再QQ群，以及各个[矿池]的官方群，这些[矿池]官方群一在国外的[飞机群],要想一直拥有优质的客户还得自己勤奋
+___
+
+## [FxMinerProxy]的收入是什么？
+[FxMinerProxy] 靠软件内置的开发者抽水(千分之2.7),如果不开不开抽水那么这个软件将会是免费的。
+
+
+## 联系我们
+你可以通过以下方式与其他正在使用 [FxMinerProxy] 的用户或开发者交流：
+* 邮件：hansenloveyou520@gmail.com
+* [Telegram 讨论群组-老-私聊不回]
+* [Telegram 讨论群组-新]
+* [Github]
+* [QQ群]
+* [官网]
