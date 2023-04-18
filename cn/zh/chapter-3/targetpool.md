@@ -1,5 +1,5 @@
 [image1]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch3-targetpool.png
-[Telegram 讨论群组]:https://t.me/FxminerChat
+[Telegram 讨论群组]:https://t.me/fxminerproxy_chat_cn
 [问题讨论]:https://github.com/FxPool/FXMinerProxy/issues
 
 ## 3.5 - 目标矿池

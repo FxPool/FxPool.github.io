@@ -3,7 +3,7 @@
 [image3]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch3-poetsheet-feeset.png
 [image4]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch3-portsheet-poolmodel.png
 [image5]:https://raw.githubusercontent.com/FxPool/FXMinerProxy/main/image/tutorial/ch3-portshee-adv-set.png
-[Telegram 讨论群组]:https://t.me/FxminerChat
+[Telegram 讨论群组]:https://t.me/fxminerproxy_chat_cn
 [问题讨论]:https://github.com/FxPool/FXMinerProxy/issues
 
 ## 3.1 - 端口表

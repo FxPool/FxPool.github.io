@@ -1,4 +1,4 @@
-[Telegram 讨论群组]:https://t.me/FxminerChat
+[Telegram 讨论群组]:https://t.me/fxminerproxy_chat_cn
 [问题讨论]:https://github.com/FxPool/FXMinerProxy/issues
 [纯转发(开源)]:https://github.com/snail007/goproxy
 
